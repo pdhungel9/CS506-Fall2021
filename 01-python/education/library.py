@@ -1,3 +1,22 @@
 def draw_library():
-    print("library not found")
+    print("<      / \          / \>")
+    print("<     /   \        /   \>")
+    print("<    /     \      /     \>")
+    print("<   /       \    /       \>")
+    print("<  /         \  /         \>")
+    print("< /           \/           \>")
+    print("<|             |            |>")
+    print("<|             |            |>")
+    print("<|   -----     |    -----   |>")
+    print("<|   |   |     |    |   |   |>")
+    print("<|   |   |     |    |   |   |>")
+    print("<|   -----     |    -----   |>")
+    print("<|             |            |>")
+    print("<|             |            |>")
+    print("<|             |            |>")
+    print("<|             |            |>")
+    print("<|             |            |>")
+    print(" ---------------------------- ")
     return
+
+draw_library()
