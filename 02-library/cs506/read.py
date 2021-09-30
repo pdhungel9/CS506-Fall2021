@@ -7,6 +7,7 @@ def read_csv(csv_file_path):
     lines = data.readlines()
     output = []
     for line in lines:
+        line = line.replace('/n', ',').split(',')[:-1]
         output.append([line])
     
     return output
