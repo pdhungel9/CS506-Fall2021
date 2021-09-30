@@ -43,17 +43,17 @@ def distance(a, b):
     """
     Returns the Euclidean distance between a and b
     """
-    raise NotImplementedError()
+    return ((a[0] - b[0])**2 + (a[1] - b[1])**2) ** 0.5
 
 def distance_squared(a, b):
-    raise NotImplementedError()
+    return distance(a,b) ** 2
 
 def generate_k(dataset, k):
     """
     Given `data_set`, which is an array of arrays,
     return a random set of k points from the data_set
     """
-    raise NotImplementedError()
+    return random.shuffle(dataset)[:k]
 
 def cost_function(clustering):
     raise NotImplementedError()
